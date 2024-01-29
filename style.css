@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(229, 229, 229);
+}
+
+.logo-container {
+    background-color: #222E3D;
+}
+
+.logo {
+    width: 120px;
+    padding: 10px 25px; 
+}
+
+nav {
+    color: white;
+    background-color: #354657;
+    /* display: inline; */
+    height: 35px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 0;
+    padding-left: 20px;
+}
+
+header{
+    
+    text-align: center;
+    color: white;
+}
+
+header div{
+    margin-top: 28px ;
+    background-image: url(assets/bg-image.png);
+    padding: 25px;
+    margin: 0px 20px;
+    height: 70px;
+}
+
+.bg-white {
+    background-color: white;
+    text-align: left;
+    padding: 1rem 1rem 0 1.5rem;
+}
+
+header h3 {
+    background-color: #F5660D;
+    margin: 25px 20px;
+}
+
+main section{
+    padding: 50px;
+    /* text-align: left;  */
+    padding: 1rem 1rem 0 1.5rem;
+    margin: 30px 20px;
+}
+
+main section span{
+    text-align: left;
+    font-size: 19px;
+}
+
+.link-color {
+    color: #007185;
+    font-size: 14px;
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+main section div {
+    text-align: center;
+}
+.img{
+    width: 300px;
+    height: 380px;
+    margin: 1rem;
+    /* importante per non distorcere l'immagine */
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #dedede;
+}
+
+.img-section2 {
+    text-align: center;   
+    margin: 0 10px;
+    padding: 0 10px;
+    
+}
+
+.bg-div{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.logo2{
+    padding: 4rem;
+    height: 60px;
+}
+
+#txt-center{
+    text-align: center;
+}
+
+.footer{
+    background-color: #354657;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+footer div a {
+    color: white;
+}
+
+.cards{
+    width: 100%;
+    margin-top: 2rem;
+    padding: 20px;
+}
+
+article {
+    background-color: white;
+    display: inline-block;
+    width: 24%;
+}
+
+/* section article div img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+} */
+
+.card-row{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.container{
+    width: 45%;
+    display: inline-block;
+    position: relative;
+    
+}
+
+.bold{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.card-header {
+    margin: 20px 10px;
+    text-align: left;
+}
+
+.little-title {
+    font-size: 11px;
+    text-align: left;
+}
+
+.img2{
+    padding: 0;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    
+}
+
+.txt-left{
+    text-align: left;
+}
